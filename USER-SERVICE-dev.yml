@@ -4,3 +4,5 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/users
+  application:
+    name: USER-SERVICE-DEV
