@@ -6,6 +6,11 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: lalit
+    password: 123456
+        
 
 eureka:
   instance:
